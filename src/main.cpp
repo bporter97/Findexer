@@ -1,19 +1,14 @@
 #include <iostream>
-#include "../lib/TutorialConfig.h"
 
 using namespace std;
 
-int main(){
-
-    string hello = "Hello Function!";
-
-    cout << "Hello World!" << endl;
-
-    test(hello);
-    
+int main(int argc, char** argv)
+{
+    cout << "You have entered " << argc
+         << " arguments:" << "\n";
+  
+    for (int i = 0; i < argc; ++i)
+        cout << argv[i] << "\n";
+  
     return 0;
-}
-
-void test(string h){
-    cout << h << endl;
 }
