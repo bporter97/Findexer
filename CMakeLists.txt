@@ -14,4 +14,4 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 # configure_file(ex.h ex.h)
 
 #Add directory to the list of paths to search for include files
-target_include_directories(Findexer PUBLIC "${lib}")
+#target_include_directories(Findexer PUBLIC "${lib}")
