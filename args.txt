@@ -1,3 +1,0 @@
--f = file name
--p = path
--h = help
