@@ -5,7 +5,7 @@ cmake_minimum_required(VERSION 3.10)
 project(Main)
 
 # compile project to executable
-add_executable(Main src/main.cpp)
+add_executable(Findex src/main.cpp)
 
 # specify c++ standard
 set(CMAKE_CC_STANDARD 20)
