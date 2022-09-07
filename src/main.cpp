@@ -2,8 +2,7 @@
 #include<filesystem>
 
 int main(int argc, char* argv[]){
-
-    std::string param1;
+    std::string param1; 
     std::string param2;    
     std::string param3;
     std::string param4;
