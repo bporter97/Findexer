@@ -7,4 +7,4 @@ Eventually, the application will evolve past a simple command line application a
 
 But for now. Let's keep it simple :)
 
-<p>Usage instructions: findex [-f, -d, or -h] <Directory path or file name> [-f] <filename> </p>
+<p>Usage instructions: findex [-f, -d, or -h] &lt;Directory path or file name&gt; [-f] &lt;filename&gt; </p>
