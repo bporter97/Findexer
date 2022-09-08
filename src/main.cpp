@@ -1,12 +1,14 @@
 #include<iostream>
 #include<filesystem>
+#include "../libs/File_Dir.hpp"
+
+std::string param1; 
+std::string param2;    
+std::string param3;
+std::string param4;
 
 int main(int argc, char* argv[]){
-    std::string param1; 
-    std::string param2;    
-    std::string param3;
-    std::string param4;
-    
+
     //switch statement for processing command arguments; starts at 2 since the program accepts findex.exe as the first arg 
     switch (argc){
         case 2: //only -h
@@ -24,10 +26,10 @@ int main(int argc, char* argv[]){
             break;
 
         case 3: //two args entered, can only be -f and <filename>
-            param1 = argv[1]; //-h OR -f
+            param1 = argv[1]; //--f
             param2 = argv[2]; // file name
             if (param1 == "-f"){ // take param2, return path(s) file-name is located at
-
+                //fs::current_path()
             }
             else{
                 std::cout << "Could not execute. Use findex -h for usage directions" << std::endl;
