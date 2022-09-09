@@ -1,6 +1,6 @@
 #include<iostream>
 #include<filesystem>
-#include "../libs/File_Dir.hpp"
+//#include "../libs/File_Dir.hpp"
 
 std::string param1; 
 std::string param2;    
@@ -18,6 +18,8 @@ int main(int argc, char* argv[]){
                     << std::endl << "-d: Specify directory to search\n"
                     << "-f: Specify file name\n" //as of right now, program will only search file name and not extenstion type
                     << "-h: help\n" << std::endl;
+
+                std::cout << param1;
             }
             else{
                 std::cout << "Could not execute. Use findex -h for usage directions" << std::endl;
